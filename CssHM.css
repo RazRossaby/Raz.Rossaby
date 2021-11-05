@@ -1,0 +1,20 @@
+body {
+    background-color: cornflowerblue;
+}
+h2 {
+    color: white;
+    font-size: 20px ;
+
+}
+head { background-color: yellow;}
+
+#UserName {
+
+    color: red;
+}
+
+.headers {
+  background-color: blanchedalmond;
+  color: black;
+
+}
