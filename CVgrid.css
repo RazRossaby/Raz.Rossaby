@@ -17,7 +17,7 @@ body{
     width: 1130px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(100, 40, 0);
+    background-color: burlywood;
 
 }
 #item2 {
@@ -26,7 +26,7 @@ body{
     width: 200px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(0, 47, 100);
+    background-color: rgb(18, 175, 154);
 
 }
 #item3 {
@@ -35,7 +35,8 @@ body{
     width: 400px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(0, 60, 100);
+    background-color: rgb(146, 164, 175);
+    
 
 }
 
@@ -45,7 +46,15 @@ body{
     width: 200px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(52, 0, 100);
+    border-radius: 50%;
+    animation-name: pphoto;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
 
 }
 #item5 {
@@ -54,7 +63,7 @@ body{
     width: 1130px;
     padding: 20px;
     margin: 20px;
-    background-color: rgb(100, 0, 0);
+    background-color: rgb(153, 216, 162);
 
 }
 div {
@@ -67,3 +76,8 @@ div {
       background-color: olive;
     }
   }
+  @keyframes pphoto {
+    from {background-image: url(Profile.png);}
+    to {background-color: rgb(255, 255, 255);}
+
+}
